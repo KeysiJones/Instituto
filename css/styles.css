@@ -1,0 +1,470 @@
+:root {
+
+    --blue: #007bff;
+
+    --indigo: #6610f2;
+
+    --purple: #6f42c1;
+
+    --pink: #e83e8c;
+
+    --red: #dc3545;
+
+    --orange: #fd7e14;
+
+    --yellow: #ffc107;
+
+    --green: #28a745;
+
+    --teal: #20c997;
+
+    --cyan: #17a2b8;
+
+    --white: #fff;
+
+    --gray: #6c757d;
+
+    --gray-dark: #343a40;
+
+    --primary: #007bff;
+
+    --secondary: #6c757d;
+
+    --success: #28a745;
+
+    --info: #17a2b8;
+
+    --warning: #ffc107;
+
+    --danger: #dc3545;
+
+    --light: #f8f9fa;
+
+    --dark: #343a40;
+
+    --breakpoint-xs: 0;
+
+    --breakpoint-sm: 576px;
+
+    --breakpoint-md: 768px;
+
+    --breakpoint-lg: 992px;
+
+    --breakpoint-xl: 1200px;
+
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+
+    min-width: 50vw;
+
+}
+
+
+
+body {
+
+  margin: auto;
+
+}
+
+
+
+p{
+
+  padding: .5em;
+
+  font-size: 3vh;
+
+}
+
+
+
+h1 {
+
+    padding: 3vh;
+
+    margin-top:7vh;
+
+    font-size: 7vh;
+
+    margin-bottom: .5rem;
+
+    font-weight: 500;
+
+    line-height: 1.2;
+
+    font-family: var(--font-family-sans-serif);
+
+    text-align:center;
+
+    color:#212529;
+
+}
+
+
+
+b {
+
+  color: dodgerblue;
+
+}
+
+
+
+h2.recuperacoes {
+
+  color:dodgerblue;
+
+  margin-top: 11vh;
+
+}
+
+
+
+h2 {
+
+  color: dodgerblue;
+
+  margin-top: 3vh;
+
+  font-size: 5vh;
+
+  font-family: var(--font-family-sans-serif);
+
+  text-align: center;
+
+}
+
+
+
+h3 {
+
+  text-align: center;
+
+  font-size: 3vh;
+
+}
+
+img#logo {
+
+    width: 7vh;
+
+    margin: .5em 0 0 .5em;
+
+    border-radius: 50%;
+
+}
+
+
+
+img {
+
+  width: 100%;
+
+  align-self: center;
+
+  max-width: 56vh;
+
+  max-height: 80vh;
+
+}
+
+
+
+img.img-normal {
+
+  width: 100%;
+
+  max-width: 56vh;
+
+  max-height: 80vh;
+
+}
+
+ul#navbar {
+
+  justify-content: center;
+
+  position: fixed;
+
+  display: flex;
+
+  list-style-type: none;
+
+  margin: 0;
+
+  padding: 0;
+
+  overflow: hidden;
+
+  background-color: #2281d3;
+
+  width: 100%;
+
+}
+
+
+
+.borda {
+
+  border: 1px solid black;
+
+}
+
+
+
+.padding {
+
+  margin-top: 4em;
+
+  padding: 2.5em;
+
+}
+
+
+
+li a {
+
+  text-decoration: underline;
+
+  transition: all 1s;
+
+  font-style: italic;
+
+  font-size: 2.6vh;
+
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+}
+
+
+
+li a:hover {
+
+  color:whitesmoke;
+
+}
+
+
+
+a#link-logo{
+
+  padding: 0em 1em 0 0;
+
+}
+
+
+
+a{
+
+  display: inline-block;
+
+}
+
+
+
+li a, .dropbtn {
+
+  margin-top: 0.2vw;
+
+  display: inline-block;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 20px 16px 16px 14px;
+
+  text-decoration: none;
+
+}
+
+
+
+li a:hover, .dropdown:hover .dropbtn {
+
+  background-color: #2d87aa;
+
+}
+
+
+
+li.dropdown {
+
+  display: inline-block;
+
+}
+
+
+
+.dropdown-content {
+
+  display: none;
+
+  position: fixed;
+
+  background-color: white;
+
+  min-width: 160px;
+
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+  z-index: 1;
+
+  margin-right: 1%;
+
+  
+
+}
+
+
+
+.dropdown-content a {
+
+  color: black;
+
+  padding: 12px 16px;
+
+  text-decoration: none;
+
+  display: block;
+
+  text-align: left;
+
+}
+
+
+
+.dropdown-content a:hover {
+
+  background-color: #43a0c5;
+
+}
+
+
+
+.dropdown:hover .dropdown-content {
+
+  display: block;
+
+}
+
+
+
+div#conteudo{
+
+  /*por alguma razão estranha isso centraliza imagens também(A imagem de cristo)*/
+
+  text-align: center;
+
+  margin-top: .0em;
+
+}
+
+
+
+div#menu {
+
+  display: flex;
+
+  margin: auto;
+
+}
+
+
+
+div{
+
+  text-align: center;
+
+}
+
+
+
+div#footer {
+
+  padding: 3vh;
+
+  background-color: #2281d3;
+
+  /*display: flex;*/
+
+  justify-content: space-around;
+
+  text-align: center;
+
+  margin: auto;
+
+}
+
+
+
+.rodape {
+
+  color: azure;
+
+}
+
+
+
+div#footer div {
+
+}
+
+
+
+.links{
+
+  display: inline-grid;
+
+  font-size:x-large;
+
+}
+
+
+
+img.icones {
+
+  margin: 1vh 2vh 2vh 2vh;
+
+  border-radius: 30%;
+
+  width: 5vh;
+
+}
+
+
+
+h5{
+
+  font-size: 4vh;
+
+  color: springgreen;
+
+}
+
+iframe {
+  width: 98%;
+  height: 106vh;
+}
+
+/*
+
+.criador{
+
+  border-radius: 50%;
+
+  width: 12vh;
+
+}
+
+
+
+.div-criador {
+
+  font-size: 3vh;
+
+}
+
+*/
